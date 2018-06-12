@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+
+.navbar {
+  background-color: rgb(230,230,230);
+  border-bottom: 2px solid gray;
+}
+
+.card {
+  padding-top: 50px;
+  display: flex;
+  border-width: 0px;
+}
+.mod {
+  color: grey;
+  display: block;
+}
+
+.card a {
+  display: flex;
+  color: darkblue;
+  justify-content: center;
+}
+
+.mod a {
+  color: grey;
+}
+h1 {
+  font-size: 30px;
+}
+
+.container {
+}
